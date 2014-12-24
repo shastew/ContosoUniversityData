@@ -1,0 +1,1 @@
+Example application from web tutorial "EF Database First with ASP.NET MVC" (https://www.asp.net/mvc/overview/getting-started/database-first-development/setting-up-database).
