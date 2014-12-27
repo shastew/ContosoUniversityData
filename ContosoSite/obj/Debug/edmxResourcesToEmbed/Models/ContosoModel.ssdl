@@ -25,6 +25,9 @@
     <Property Name="LastName" Type="nvarchar" MaxLength="50" />
     <Property Name="FirstName" Type="nvarchar" MaxLength="50" />
     <Property Name="EnrollmentDate" Type="datetime" />
+    <Property Name="MiddleName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="25" />
+    <Property Name="Gender" Type="nvarchar" MaxLength="6" />
   </EntityType>
   <Association Name="FK_dbo_Enrollment_dbo_Course_CourseID">
     <End Role="Course" Type="Self.Course" Multiplicity="1">

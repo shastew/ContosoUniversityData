@@ -23,6 +23,9 @@
     <EntitySetMapping Name="Students">
       <EntityTypeMapping TypeName="ContosoUniversityDataModel.Student">
         <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="MiddleName" ColumnName="MiddleName" />
           <ScalarProperty Name="StudentID" ColumnName="StudentID" />
           <ScalarProperty Name="LastName" ColumnName="LastName" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />
